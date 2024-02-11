@@ -11,14 +11,21 @@
 
 button {
   color: white;
+  margin: 1em;
+  border-radius: 5px;
+  font-size: 30px;
 }
 
 .yes {
   background-color: green;
+  height: 2em;
+  width: 5em;
 }
 
 .no {
   background-color: red;
+  height: 2em;
+    width: 5em;
 }
 
 .no-border {
