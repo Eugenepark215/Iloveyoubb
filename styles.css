@@ -1,0 +1,26 @@
+.align-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  color: white;
+}
+
+.yes {
+  background-color: green;
+}
+
+.no {
+  background-color: red;
+}
+
+.no-border {
+  border: none;
+}
