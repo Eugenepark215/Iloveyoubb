@@ -14,18 +14,27 @@ button {
   margin: 1em;
   border-radius: 5px;
   font-size: 30px;
+  transition-duration: 0.3s
 }
 
 .yes {
-  background-color: green;
+  background-color: rgb(0, 180, 0);
   height: 2em;
   width: 5em;
 }
 
+.yes:hover {
+  background-color: green;
+}
+
 .no {
-  background-color: red;
+  background-color: rgb(240, 90, 70);
   height: 2em;
-    width: 5em;
+  width: 5em;
+}
+
+.no:hover {
+  background-color: red
 }
 
 .no-border {
