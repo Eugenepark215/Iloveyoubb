@@ -5,7 +5,13 @@
 
 .flex {
   display: flex;
+}
+
+.flex-direction {
   flex-direction: column;
+}
+
+.height {
   height: 100vh;
 }
 
@@ -13,11 +19,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 button {
   color: white;
-  margin: 1em;
+  margin: 1rem;
   border-radius: 5px;
-  font-size: 30px;
   transition-duration: 0.3s;
 }
 
@@ -29,6 +38,7 @@ button {
 
 .yes:hover {
   background-color: green;
+  cursor: pointer;
 }
 
 .no {
@@ -38,7 +48,8 @@ button {
 }
 
 .no:hover {
-  background-color: red
+  background-color: red;
+  cursor: pointer;
 }
 
 .no-border {
@@ -47,4 +58,16 @@ button {
 
 .display-none {
   display: none;
+}
+
+p {
+  font-size: x-large;
+  text-align: center;
+}
+
+@media screen and (max-width:800px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
 }
