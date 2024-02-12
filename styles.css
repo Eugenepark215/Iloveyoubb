@@ -9,12 +9,16 @@
   height: 100vh;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 button {
   color: white;
   margin: 1em;
   border-radius: 5px;
   font-size: 30px;
-  transition-duration: 0.3s
+  transition-duration: 0.3s;
 }
 
 .yes {
@@ -39,4 +43,8 @@ button {
 
 .no-border {
   border: none;
+}
+
+.display-none {
+  display: none;
 }
